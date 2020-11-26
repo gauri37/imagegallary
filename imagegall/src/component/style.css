@@ -1,0 +1,54 @@
+.center {
+    display: flex;
+    border: 2px solid black;  
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: scroll;
+    height: 400px;
+    
+}
+
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(107, 120, 124);
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    font-size: 16px;
+}
+
+
+input{
+    background-color: rgb(30, 135, 167);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px 20px 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+input::placeholder{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+input:focus, button:focus{
+    outline: none;
+} 
