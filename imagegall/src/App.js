@@ -1,10 +1,10 @@
 import './App.css';
 import ImageCompoent from './component/ImageCompoent'
-
+import './style.css';
 function App() {
   return (
     <div className="App">
-      <h1>Image Gallery</h1>
+      <h1 style="color: blue">Image Gallery</h1>
       <ImageCompoent/>
     </div>
   );
