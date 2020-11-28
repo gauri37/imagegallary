@@ -2,15 +2,14 @@
     display: flex;
     border: 2px solid black;  
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
     overflow-y: scroll;
     height: 400px;
     
 }
 
 
-img {
+div img {
     height: 200px;
     width: 200px;
     margin-left: 20px;
@@ -23,16 +22,15 @@ button{
     width: 80px;
     border-radius: 5px;
     border: 0;
-    background-color: rgb(107, 120, 124);
+    background-color: rgb(202,156,24);
     cursor: pointer;
     font-weight: bolder;
     color: white;
-    font-size: 16px;
 }
 
 
 input{
-    background-color: rgb(30, 135, 167);
+    background-color: rgb(27,112,137);
     border: 0;
     width: 200px;
     height: 50px;
@@ -45,10 +43,27 @@ input{
 
 
 input::placeholder{
-    color: whitesmoke;
-    font-size: 20px;
+    color: rgba(255,255,255,0.5);
 }
 
 input:focus, button:focus{
     outline: none;
 } 
+
+.closeBtn {
+    align-self: flex-start;
+    cursor: pointer; 
+    font-size: 25px;
+    color: red; 
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    padding-bottom: 40px; 
+    position: absolute;
+    
+}
+
+.imgDiv {
+    position: relative;
+    margin-right: 20px;
+}
