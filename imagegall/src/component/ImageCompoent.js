@@ -1,5 +1,5 @@
 import React from 'react';
-import './Style.css';
+import './style.css';
 import RowItems from './divItems';
 
 export default class ImageCompoent extends React.Component
