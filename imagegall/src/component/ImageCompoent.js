@@ -9,10 +9,10 @@ export default class ImageCompoent extends React.Component
         super();
         this.state = {
             imgData:[ 
-                {id: 1,imgUrl: 'https://wallpaperim.net/_data/i/upload/2014/09/26/20140926506160-99c81d45-la.jpg'},
-            {id: 2,imgUrl:"https://i.pinimg.com/736x/11/2b/74/112b746a2182417b2a947d949798c968.jpg"},
-            {id: 3,imgUrl:"https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512__340.jpg"},
-            {id: 4,imgUrl:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg"},
+                {key: 1,src: 'https://wallpaperim.net/_data/i/upload/2014/09/26/20140926506160-99c81d45-la.jpg'},
+            {key: 2,src:"https://i.pinimg.com/736x/11/2b/74/112b746a2182417b2a947d949798c968.jpg"},
+            {key: 3,src:"https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512__340.jpg"},
+            {key: 4,src:"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg"},
              ],
             currUrl: ""
         };
