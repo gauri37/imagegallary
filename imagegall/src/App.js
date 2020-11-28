@@ -4,7 +4,7 @@ import ImageCompoent from './component/ImageCompoent'
 function App() {
   return (
     <div className="App">
-      <h1 style="color: blue">Image Gallery</h1>
+      <h1>Image Gallery</h1>
       <ImageCompoent/>
     </div>
   );

@@ -1,11 +1,16 @@
 .center {
     display: flex;
-    border: 2px solid black;  
+   
     margin-top: 10px;
     margin-left: 5px;
     overflow-y: scroll;
-    height: 400px;
+    opacity: 0.5;
+
+  
+}
+body {
     
+    background-image: url("https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fGNhbWVyYXxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60/.jpg");
 }
 
 
@@ -14,7 +19,7 @@ div img {
     width: 200px;
     margin-left: 20px;
     margin-top: 20px;
-    background-image: url("//previews.123rf.com/images/scanrail/scanrail1209/scanrail120900005/15141764-creative-photo-gallery-concept-collection-of-colorful-photos-on-background-made-from-wooden-planks-a.jpg");
+    
 }
 
 
