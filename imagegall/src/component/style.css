@@ -29,6 +29,7 @@ img {
     margin-top: 20px;
     position: relative;
     opacity: 1.0;
+    border: 3px solid black;
 }
 
 
