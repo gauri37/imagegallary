@@ -38,8 +38,9 @@ export default class ImageCompoent extends React.Component
 
         if(newImg.imgUrl.trim()!=="")
         {
-            const newImgData = [...this.state.imgData,newImg];
-
+            //const newImgData = [...this.state.imgData,newImg];
+            let newImgData=this.state.imgData;
+            newImgData.push(newImg);
             this.setState({
                 imgData : newImgData,
                 currUrl : "",
@@ -64,7 +65,7 @@ export default class ImageCompoent extends React.Component
 
     render(){
         return(
-            <div>
+            <div className="backImg">
                  <form onSubmit={this.addItem}>
                     <input type='text' placeholder="Enter IMG URL"
                     name="currUrl"
@@ -74,8 +75,8 @@ export default class ImageCompoent extends React.Component
                     <button type='submit' id="btn">Add</button>
                 </form>
                 <div className="center">
-                <RowItems Items={this.state.imgData} 
-                deleteImg = {this.deleteItem}
+            
+                <RowItems Items={this.state.imgData} deleteImg = {this.deleteItem}
                 />
                 </div>
             </div>
